@@ -1,4 +1,6 @@
-﻿using Library;
+﻿using System;
+using System.Collections.Generic;
+using Library;
 
 namespace Program
 {
@@ -6,7 +8,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Greeter.Instance.SayHiToTheWorld();
+            Singleton<Greeter>.Instance.SayHiToTheWorld();
         }
     }
 }
