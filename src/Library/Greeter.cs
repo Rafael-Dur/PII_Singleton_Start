@@ -4,7 +4,7 @@ namespace Library
 {
     public class Greeter
     {
-        private Greeter()
+        public Greeter()
         {
             // Intentionally left blank
         }
